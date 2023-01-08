@@ -1,6 +1,8 @@
 This is a script to create lifts using target easily
 Just add from and to coords in config.lua and Done
 
+[CFX](https://forum.cfx.re/t/free-qb-meetxdev-a-simple-lift-elevator-script/4990997)
+
 Dependecies : 
 
 1) qb-target
