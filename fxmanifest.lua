@@ -11,7 +11,3 @@ shared_script {
 client_scripts { 
 	"client/*.lua",
 }
-
-dependencies {
-	'qb-target'
-}

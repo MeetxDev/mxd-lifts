@@ -17,6 +17,11 @@ RegisterNetEvent('mxd-lift:start', function()
 			
 			SetEntityCoords(ped, coords.to.x, coords.to.y, coords.to.z, 0, 0, 0, false)
 			SetEntityHeading(ped, coords.from.w)
+			
+			if (Config.playsound) then
+				TriggerEvent("InteractSound_CL:PlayOnOne", "lift", 0.5)
+			end
+			
 			Wait(100)
 			DoScreenFadeIn(1000)
 			break
@@ -37,7 +42,7 @@ for k, coords in pairs(Config.Locations["mxdlift"]) do
 				type = "client",
 				event = "mxd-lift:start",
 				icon = "fas fa-elevator",
-				label = "Take Lift",
+				label = coords.label,
 			},
 		},
 		distance = 2.5
