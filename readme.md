@@ -8,7 +8,7 @@ Preivew
 ![Target](https://cdn.discordapp.com/attachments/953614783482044428/1062262485467533352/Screenshot_10-01-2023_12_09_12_PM.png)
 ![DrawText](https://cdn.discordapp.com/attachments/953614783482044428/1062262514324348988/Screenshot_151.png)
 
-[CFX](https://forum.cfx.re/t/free-qb-meetxdev-a-simple-lift-elevator-script/4990997)
+[CFX](https://forum.cfx.re/t/free-meetxdev-a-simple-lift-elevator-script/4992532)
 
 Dependecies : 
 
